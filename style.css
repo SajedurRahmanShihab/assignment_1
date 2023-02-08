@@ -8,6 +8,18 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+p {
+    color: #444343;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* p--white {
+    color: white;
+} */
+
 
 /* To create space both side of the page */
 
@@ -39,6 +51,46 @@ body {
 }
 
 
+/* nav start */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    margin: 0;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    display: block;
+    margin: 0;
+}
+
+
+/* nav end */
+
+
 /* banner start */
 
 .banner {
@@ -46,6 +98,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+    padding: 50px 0;
 }
 
 .text--right {
@@ -61,6 +114,10 @@ body {
     text-align: right;
 }
 
+.text h1 {
+    font-size: xx-large;
+}
+
 
 /* banner end */
 
@@ -68,14 +125,14 @@ body {
 /* failures start */
 
 .disappointed_woman {
-    width: 250px;
+    width: 360px;
 }
 
 .failures__flex {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .child--one {
@@ -83,7 +140,7 @@ body {
 }
 
 .child--two {
-    width: 45%;
+    width: 40%;
 }
 
 .d__flex {
@@ -135,6 +192,7 @@ body {
     background-size: cover;
     min-height: 180px;
     height: 100%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     margin-bottom: 80px;
@@ -172,6 +230,10 @@ body {
     width: 45%;
 }
 
+.footer--left p {
+    color: white;
+}
+
 .footer--right {
     margin-top: 20px;
     margin-left: auto;
@@ -188,6 +250,15 @@ body {
 
 .social img {
     width: 25px;
+}
+
+.subscribe--input {
+    background-color: #151414;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 
