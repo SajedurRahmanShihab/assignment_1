@@ -18,6 +18,27 @@ body {
 }
 
 
+/* two button */
+
+.orange--button {
+    background-color: #F15B22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.white--button {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
 /* banner start */
 
 .banner {
@@ -44,7 +65,7 @@ body {
 /* banner end */
 
 
-/* failures section start */
+/* failures start */
 
 .disappointed_woman {
     width: 250px;
@@ -54,6 +75,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 60px;
 }
 
 .child--one {
@@ -75,4 +97,98 @@ body {
 }
 
 
-/* failures section end */
+/* failures obviously end */
+
+
+/* plans start */
+
+.text--center {
+    text-align: center;
+}
+
+.plans--flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.plans--flex img {
+    width: 60px;
+}
+
+
+/* plans executed */
+
+
+/* positivity start */
+
+
+/* #ed5c23  #c6916f*/
+
+.positivity {
+    background-image: url("assets/watch.png"), linear-gradient(to right, #ed5c23, #555635);
+    background-blend-mode: lighten;
+    /* background-image: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 180px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.positivity--text {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.positivity h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* positivity should never end! */
+
+
+/* footer start */
+
+.footer {
+    background-color: #151414;
+    color: white;
+    padding: 40px;
+}
+
+.footer__flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.footer--left {
+    width: 45%;
+}
+
+.footer--right {
+    margin-top: 20px;
+    margin-left: auto;
+    width: 45%;
+}
+
+.footer--right h4 {
+    margin-bottom: 10px;
+}
+
+.footer--right button {
+    margin-top: 10px;
+}
+
+.social img {
+    width: 25px;
+}
+
+
+/* footer end */
